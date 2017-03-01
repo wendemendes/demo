@@ -36,7 +36,7 @@ public class DemoApplication {
 			public void run(String... arg0) throws Exception {
 				
 			
-				Arrays.asList(new Cliente("Joao"), new Cliente("Maria"))
+				Arrays.asList(new Cliente("Joao cardoso"), new Cliente("Maria"))
 					.forEach(new Consumer<Cliente>() {
 
 						@Override
